@@ -10,6 +10,50 @@ Problem: create a software solution that addresses a key environmental or  susta
 
 
 Solution: we use a camera detection method from which we analyse if the plant is in good health or its diseased. It shows about the details of the flower, where its mostly found and the climatic weather which is necessary for it to grow. It guides the users with how to keep the flower healthy and if its diseased then it show an alert that the plant is defective and how we can cure the plant and about its precautions.
+Here’s a step-by-step guide to help you set it up:
+
+
+SetUp
+Step 1: Set Up Your Project Directory
+Ensure your project directory looks something like this:
+
+Copy
+/project-folder
+    /my_model
+        model.json
+        metadata.json
+    index.html
+Step 2: Serve Your Files Locally
+You can use a simple HTTP server to serve your files. Here are a few options:
+
+Using Python (if you have Python installed):
+Open a terminal in your project folder.
+
+Run the following command:
+
+bash
+Copy
+python -m http.server 8000
+Open your browser and go to http://localhost:8000.
+
+Using Node.js (if you have Node.js installed):
+Install http-server globally:
+
+bash
+Copy
+npm install -g http-server
+Open a terminal in your project folder.
+
+Run the following command:
+
+bash
+Copy
+http-server
+Open your browser and go to http://localhost:8080.
+
+Step 3: Test Your Web Page
+Once your server is running, open your browser and navigate to the URL provided by the server (e.g., http://localhost:8000 or http://localhost:8080). You should see your web page with a "Start" button.4
+
 
 Flow chart:
 
