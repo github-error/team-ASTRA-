@@ -56,6 +56,7 @@ Once your server is running, open your browser and navigate to the URL provided 
 
 
 Flow chart:
+![a00e9c37-5776-4b92-83c1-128c03fdeae6](https://github.com/user-attachments/assets/08e6523a-ae15-474a-b7c4-6674cd4428e0)
 
 
 
